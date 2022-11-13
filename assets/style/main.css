@@ -1,0 +1,28 @@
+/* Setup */
+@import 'setup/vars.css';
+@import 'setup/typography.css';
+
+/* Base */
+@import 'base/base.css';
+@import 'base/helpers.css';
+@import 'base/layout.css';
+@import 'base/forms.css';
+
+/* General Components */
+@import 'cmps/home-page.css';
+@import 'cmps/app-header.css';
+@import 'cmps/app-footer.css';
+@import 'cmps/app-navbar.css';
+@import 'cmps/user-msg.css';
+@import 'cmps/search-filter.css';
+@import 'cmps/app-container.css';
+@import 'cmps/label-picker.css';
+@import 'cmps/long-txt.css';
+
+/* Apps */
+@import 'apps/mail/email-app.css';
+@import 'apps/note/note-app.css';
+
+/* Animation */
+
+@import url(../../lib/animate.css);

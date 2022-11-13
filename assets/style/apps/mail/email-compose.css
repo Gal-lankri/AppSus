@@ -1,0 +1,79 @@
+.email-compose {
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: fixed;
+  z-index: 50;
+  right: 2rem;
+  bottom: 1px;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 50%;
+  box-shadow: 0px 0px 7px 1px rgba(126, 126, 126, 0.8);
+}
+.email-compose input {
+  border: unset;
+  border-bottom: 1px solid var(--clr2)
+}
+.email-compose h4 {
+display: flex;
+background-color: var(--clr--7);
+justify-content: space-between;
+align-items: center;
+padding: 0.7rem;
+}
+.email-compose h4 button {
+border: unset;
+background-color: unset;
+font-size: 1.5rem;
+color: rgb(25, 48, 124);
+}
+.email-compose h4 button {
+border: unset;
+background-color: unset;
+font-size: 1.5rem;
+color: rgb(25, 48, 124);
+}
+.email-compose .send-btn {
+  font-family: OpenSans-Regular;
+border: unset;
+background-color: rgb(50, 87, 206);
+border-radius: 50px;
+color: #ffffff;
+margin: 0.6rem;
+padding: 0.5rem 1rem;
+font-size: 1rem;
+}
+.email-compose .send-btn:hover {
+background-color:rgb(95, 138, 255)
+}
+.email-compose .save-email-to-note{
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--clr4);
+  margin: 0.6rem;
+  border-radius: 50px;
+}
+.email-compose .save-email-to-note:hover{
+background-color: rgb(240, 205, 118);
+}
+.email-compose .btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-compose textarea {
+  border: unset;
+  border-bottom: 1px solid var(--clr2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-compose textarea {
+  width: 100%;
+  height: 90%;
+}
+.email-compose button {
+  width: fit-content;
+}

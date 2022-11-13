@@ -1,0 +1,27 @@
+.navbar{
+    position: fixed;
+    right: 2rem;
+    top: 4rem;
+    border: 1px solid var(--clr2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    /* column-count: 2; */
+
+    box-shadow: 1px 1px 5px 0px var(--clr3);
+    user-select: none; /* Standard syntax */
+
+    background-color: var(--clr1);
+    z-index: 9999;
+
+
+}
+
+.navbar img{
+    width: 3rem;
+    opacity: 0.5;
+}
+.navbar img:hover{
+    width: 3rem;
+    opacity: 1;
+}

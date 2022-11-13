@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../../fonts/opensans/OpenSans-Light.ttf");
+    }
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../../fonts/opensans/OpenSans-Regular.ttf");
+    }
+
+@font-face {
+    font-family: "OpenSans-Medium";
+    src: url("../../fonts/opensans/OpenSans-Medium.ttf");
+    }
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../../fonts/opensans/OpenSans-Bold.ttf");
+    }
+
+@font-face {
+    font-family: "fa";
+    src: url("../../fonts/fa/fa-solid-900.ttf");
+    }

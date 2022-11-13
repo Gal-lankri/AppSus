@@ -1,0 +1,28 @@
+.search-filter{
+    /* position: relative; */
+    /* border: 1px solid gold; */
+}
+
+.search-filter input{
+    z-index: 10;
+    margin-inline-start: 350px ;
+    width: calc(100vw - 450px);
+    max-width: 780px;
+    background-color: var(--clr--2);
+    border: none;
+    border-radius: 0.5rem;
+    position: fixed;
+    top: 1.3rem;
+}
+
+/* -----------RESPONSIVE----------- */
+
+@media  (max-width: 780px) {
+
+    .search-filter input{
+        top: calc(1.3rem + 80px);
+        width: calc(100vw - 4rem);
+        margin-inline-start: 2rem ;
+    }
+
+}

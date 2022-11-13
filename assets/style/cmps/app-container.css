@@ -1,0 +1,22 @@
+.app-container{
+    margin-block-start: 80px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height: calc(100vh - 80px);
+    width: 100vw;
+}
+
+.app-container h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+/* -----------RESPONSIVE----------- */
+
+@media  (max-width: 780px) {
+    .app-container{
+        margin-block-start: 160px;
+        height: calc(100vh - 160px);
+    }
+}

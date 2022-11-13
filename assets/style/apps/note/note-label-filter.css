@@ -1,0 +1,83 @@
+.note-label-filter{
+    width: 184px;
+    display: flex;
+    flex-direction: column;
+    padding-inline-end: 1rem;
+    padding-block-start: 7rem;
+    background-color: var(--bgc);
+    z-index: 200;
+}
+
+.note-label-filter ul li{
+    cursor: pointer;
+    padding: 0.5rem;
+    padding-inline-start: 3rem;
+    border-radius: 0 1rem 1rem 0;
+    gap: 1rem;
+}
+
+.note-label-filter ul li:hover{
+    background-color: rgb(205, 205, 205);
+}
+.note-label-filter ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.show-label-filter:hover{
+    box-shadow: 4px 3px 6px -1px var(--clr4);
+}
+
+.isButtonActive{
+    background-color: var(--clr--3) !important;
+}
+
+.isLabelActive{
+    background-color: var(--clr--6) !important;
+}
+
+.show-label-filter{
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+    font-size: 3rem;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--clr--2) ;
+    color: var(--clr4);
+    z-index: 100;
+    box-shadow: 1px 1px 5px 0px var(--clr3);
+    transition: left 5 ease-in-out;
+
+}
+
+.show-label-filter .fa.label-icon::before{
+    padding: 0;
+    font-size: 3rem;
+}
+
+@media (max-width:780px) {
+
+    .show-label-filter{
+        display: fixed;
+    }
+
+    .note-label-filter{
+        position: fixed;
+        background-color: transparent;
+        bottom: 7rem;
+        left: -100px;
+    }
+
+    .note-label-filter ul li{
+        padding-inline-start: 1rem;
+        background-color: var(--clr--2);
+        box-shadow: 1px 1px 5px 0px var(--clr3);
+        width: 6rem;
+    }
+}

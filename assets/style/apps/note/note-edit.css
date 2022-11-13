@@ -1,0 +1,47 @@
+
+.note-edit{
+    text-align: center;
+    bottom: -3rem;
+    z-index: 1000;
+    padding: 0.5rem;
+    position: absolute;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 0px var(--clr3);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.color-pallet{
+    position:absolute;
+    bottom: -1.5rem;
+    left: 0.4rem;
+    opacity: 0;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px var(--clr3);
+    border: 1px solid var(--clr2);
+    padding: 0.1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.show-pallet:hover .color-pallet {
+    opacity:1;
+}
+.show-label-picker .label-picker {
+    left: -3.7rem;
+    font-size: 0.9rem;
+    transform: rotate(90deg);
+    z-index: -50;
+    opacity:0;
+}
+
+.show-label-picker:hover .label-picker {
+    opacity:1;
+}
+
+.color-pick:hover{
+    outline: 3px solid black;
+    z-index: 50;
+
+
+}

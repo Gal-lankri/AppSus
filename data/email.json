@@ -1,0 +1,158 @@
+[
+  { "id": "e101",
+    "subject": "Work seamlessly with other apps in Premiere Pro",
+    "body": "Welcome to your supporting cast. Enjoy working seamlessly in Premiere Pro with a range of other apps, and services. Open a Motion Graphics template from After Effects, customise one from Adobe Stock or choose from hundreds of third-party extensions.",
+    "isRead": true,
+    "status": "inbox",
+    "sentAt" : 1636454132000,
+    "from":{
+     "name": "Adobe Creative Cloud",
+     "emailAddress": "mail@mail.adobe.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e102",
+    "subject": "Significantly reduce your Lottie File size",
+    "body": "Hey Gal LottieFiles workflow platform now allows you to reduce your Lottie animation by almost 80%. How do we do it, you ask? We spent the last four years mastering and understanding the Lottie format. To optimize your animation, we take the Adobe After Effects rendered JSON file (using the LottieFiles for AE plugin, of course) and remove the unnecessary code, scripts and text. All without compromising its quality. Furthermore, we compress the file using open source standard dotLottie which comes with a unique identifier called “.lottie.” Give it a go and optimize your file by saving it in an enhanced JSON or dotLottie format. We think you will be pleasantly surprised.",
+    "isRead": false,
+    "status": "inbox",
+    "sentAt" : 1612953332000,
+    "from":{
+      "name": "LottieFiles",
+      "emailAddress": "hello@lottiefiles.com"
+      },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e103",
+    "subject": "Miss you!",
+    "body": "Would love to catch up sometimes",
+    "isRead": true,
+    "status": "inbox",
+    "sentAt" : 1651833332000,
+     "from":{
+     "name": "Isabela",
+     "emailAddress": "Isabela@my-mail.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e104",
+    "subject": "Engage students Nearpod style: Gamification",
+    "body": "You can use Nearpod's gamification tool, Time to Climb, to enhance problem-solving skills, promote collaboration, and engage students – all while gathering valuable formative assessment data on student understanding. The newly updated Time to Climb now allows you to pause between questions to clarify misconceptions and see student data in real-time. Amp up student engagement now and launch a Time to Climb!",
+    "isRead": false,
+    "status": "inbox",
+    "sentAt" : 1645353332000,
+     "from":{
+     "name": "Your Nearpod Team",
+     "emailAddress": "team@nearpod.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e105",
+    "subject": "Welcome to flaticon",
+    "body": "From now on, you can enjoy millions of icons and thousands of stickers to use in your projects and make your work easier. Whether it's a mobile app interface, a website or anything else, we have what you are looking for.",
+    "isRead": false,
+    "status": "inbox",
+    "sentAt" :  1641119732000,
+     "from":{
+     "name": "Freepik Company",
+     "emailAddress": "no-reply@freepik.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e106",
+    "subject": "We noticed a new sign in to your Dropbox",
+    "body": "A new Android device just signed in to your Dropbox account. To help keep your account secure, let us know if this is you.",
+    "isRead": false,
+    "status": "sent",
+    "sentAt" : 1801149232050,
+     "from":{
+     "name": "Dropbox",
+     "emailAddress": "no-reply@dropbox.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e107",
+    "subject": "Your free trial is over",
+    "body": "The free trial for team has ended. Please log in and purchase a subscription within 14 days to keep working on your design projects.",
+    "isRead": false,
+    "status": "sent",
+    "sentAt" : 1644149832650,
+     "from":{
+     "name": "Avocode",
+     "emailAddress": "hello@avocode.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e108",
+    "subject": "Miss you!",
+    "body": "Would love to catch up sometimes",
+    "isRead": false,
+    "status": "sent",
+    "sentAt" : 1551133930594,
+     "from":{
+     "name": "Adobe Creative Cloud",
+     "emailAddress": "mail@mail.adobe.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e109",
+    "subject": "Miss you!",
+    "body": "Would love to catch up sometimes",
+    "isRead": false,
+    "status": "sent",
+    "sentAt" : 1551803930594,
+     "from":{
+     "name": "Adobe Creative Cloud",
+     "emailAddress": "mail@mail.adobe.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e110",
+    "subject": "Miss you!",
+    "body": "Would love to catch up sometimes",
+    "isRead": false,
+    "status": "sent",
+    "sentAt" : 1551133930594,
+     "from":{
+     "name": "Adobe Creative Cloud",
+     "emailAddress": "mail@mail.adobe.com"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e111",
+    "subject": "Celebrate Lhabab Düchen with Special All-Day Program November 15!",
+    "body": "Would love to catch up sometimes",
+    "isRead": false,
+    "status": "sent",
+    "sentAt" : 1658784691000,
+     "from":{
+     "name": "Tushita Meditation Centre",
+     "emailAddress": "register@tushita.info"
+     },
+    "to": "user@appsus.com" 
+  },
+  { "id": "e112",
+  "subject": "Miss you!",
+  "body": "Would love to catch up sometimes",
+  "isRead": false,
+  "status": "sent",
+  "sentAt" : 1658784691000,
+   "from":{
+   "name": "Adobe Creative Cloud",
+   "emailAddress": "mail@mail.adobe.com"
+   },
+  "to": "user@appsus.com" 
+},
+  { "id": "e113",
+  "subject": "Miss you!",
+  "body": "Would love to catch up sometimes",
+  "isRead": false,
+  "status": "sent",
+  "sentAt" : 1658784691000,
+   "from":{
+   "name": "Adobe Creative Cloud",
+   "emailAddress": "mail@mail.adobe.com"
+   },
+  "to": "user@appsus.com" 
+}
+]

@@ -1,0 +1,48 @@
+.add-btn{
+    /* padding: 0 !important; */
+}
+
+.filter-by-type-btns-container{
+    position: absolute;
+    width: fit-content;
+    z-index: 1000000 !important;
+    width: 100px;
+    margin-inline-start: 3rem ;
+    background-color: var(--clr--2);
+    padding: 0.1rem;
+    border-radius: 1rem;
+}
+
+.filter-by-type-btns-container button{
+    background-color: transparent;
+    border: none;
+    color: var(--clr4);
+    height: 30px;
+    width: 30px;
+    margin:0.5rem;
+    padding: 0 !important;
+}
+
+.filter-by-type-btns-container button:hover{
+    color: var(--clr--3);
+}
+
+.filter-by-type-btns-container button::before{
+    font-size: 1.2rem !important;
+    padding: 0 !important;
+}
+
+.isActiveType{
+    color: var(--clr--3) !important;
+}
+
+
+/* -----------RESPONSIVE----------- */
+
+@media  (max-width: 780px) {
+
+    .filter-by-type-btns-container{
+        display: none;
+    }
+
+}

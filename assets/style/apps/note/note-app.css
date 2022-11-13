@@ -1,0 +1,13 @@
+@import url(../note/note-label-filter.css);
+@import url(../note/note-preview.css);
+@import url(../note/note-add.css);
+@import url(../note/note-edit.css);
+@import url(../note/note-list.css);
+@import url(../note/note-preview.css);
+@import url(../note/note-details.css);
+@import url(../note/note-filter.css);
+
+
+.note-app{
+    width: (100vw);
+}

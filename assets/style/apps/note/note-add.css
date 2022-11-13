@@ -1,0 +1,122 @@
+.note-add{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: var(--clr3);
+    max-width: 500px;
+    margin-block: 2rem;
+    border: 1px solid var(--clr2);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 0px var(--clr2);
+    background-color: var(--clr--1);
+    flex-direction: column;
+    z-index: 100;
+}
+
+.note-add:hover{
+    border: 1px solid var(--clr4);
+}
+
+.note-add textarea,
+.note-add input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1em;
+    font-family: OpenSans-Regular;
+    background-color: var(--clr--1);
+}
+
+.add-btn{
+    padding: 1rem;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+    color: var(--clr5);
+}
+
+textarea:focus, 
+input:focus{
+    outline: none;
+}
+
+.note-add .note-edit{
+    opacity: 1;
+    right: 0.5rem;
+    bottom: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.note-add-slide{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    top: 3rem;
+    /* transform: scaleY(0.5); */
+    
+    transition: all 0.2s ease-in-out;
+    background-color: var(--clr--7);
+    border-radius: 0.5rem;
+    outline: 1px solid black;
+}
+
+
+.isSlideActive{
+    top: 4rem;
+    opacity: 1;
+    
+}
+.note-add-slide textarea{
+
+    width: 100%;
+
+}
+
+.close-slide{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: -1rem;
+}
+
+
+
+/* -----------RESPONSIVE----------- */
+
+@media  (max-width: 780px) {
+
+    .note-add{
+        flex-direction: column;
+        width: calc(100vw - 4rem);
+    }
+    .btns-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .note-add>div:first-of-type{
+        flex-direction: column;
+    }
+    .note-add input{
+        order: 1;
+    }
+    .btns-container{
+        /* order: 1; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .note-add-slide{
+        top: 6rem;
+    }
+    .isSlideActive{
+        top: 7rem;
+        opacity: 1;
+        
+    }
+}
+
+

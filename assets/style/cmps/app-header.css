@@ -1,0 +1,28 @@
+.app-header {
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+}
+
+.logo{
+  font-size: 2rem;
+  position: fixed;
+  top: 1rem;
+  left: 2rem;
+}
+
+.logo h1{
+  font-size: 2rem;
+}
+
+.navbar-icon{
+  position: fixed;
+  top: 1.3rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.logo img{
+  height: 3rem;
+  margin-inline-end: 1rem;
+}

@@ -1,0 +1,54 @@
+.note-lists{
+    width: calc(100vw - 184px);
+    right: 0;
+    background-color: white;
+    border-radius: 1rem 0 0 0;
+    /* height: calc(100vw - 80px); */
+}
+
+.note-list{
+    column-gap: 2rem;
+    margin-inline: 5rem;
+    page-break-inside: avoid;  
+    break-inside: avoid-column;
+}
+
+
+/* -----------RESPONSIVE----------- */
+
+@media  (max-width: 780px) {
+    .note-list{
+        column-count: 1;
+    }
+
+    .note-lists{
+        width: 100vw;
+        margin-inline-start: 0;
+        /* height: calc(100vw - 160px); */
+
+    }
+}
+
+@media  (min-width: 880px) {
+    .note-list{
+        column-count: 2;
+    }
+}
+
+@media  (min-width: 1100px) {
+    .note-list{
+        column-count: 3;
+    }
+}
+
+
+/* @media  (min-width: 1300px) {
+    .note-list{
+        column-count: 4;
+    } */
+
+@media  (min-width: 1500px) {
+    .note-list{
+        column-count: 4;
+    }
+}

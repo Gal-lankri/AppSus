@@ -1,0 +1,96 @@
+.email-list{
+  width: 100%;
+  padding-inline-end: 2rem;
+  border-radius: 1rem 0 0 0;
+  padding-block-start: 3.5rem;
+  background-color: white;
+}
+
+.email-preview {
+  padding: 0.5rem;
+  width: 100%;
+
+  height: 2rem;
+}
+
+.email-list ul{
+  width: 100%;
+}
+
+.email-list ul li {
+  border-bottom: 1px solid var(--clr2);
+  width: 100%;
+  position: relative;
+  height: 2rem;
+}
+
+.email-list ul li div {
+  text-align: left;
+  display: inline;
+  position: absolute;
+  left: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  top:0.4rem;
+  width: calc(100% - 350px);
+
+}
+
+
+.email-list ul li div:first-of-type {
+  left: 1rem;
+  width: 200px;
+}
+
+.email-list ul li div:last-of-type {
+  position: absolute;
+  text-align: right;
+  width: calc(100% - 260px);
+}
+
+
+
+.email-list ul li:hover {
+  box-shadow: 1px 0px 1px 1px var(--clr3);
+}
+
+
+
+.email-list .remove-btn {
+  top:0.5rem;
+  position: absolute;
+
+  width: 0.5rem !important; 
+  height: 0.5rem !important;
+  border: unset;
+  padding: 0;
+  display: none;
+  position:absolute;
+  right: 80px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.email-list .remove-btn::after{
+  content: '\f2ed';
+}
+
+.email-list ul li:hover .remove-btn{ 
+	display:inline-block;
+}
+.remove-btn :hover { 
+  border-radius: 50px;
+}
+
+
+.unread {
+  /* color: black; */
+  font-family: OpenSans-Bold;
+}
+
+.read {
+  background-color:var(--clr--7);
+  font-family: OpenSans-Light;
+}
+
+

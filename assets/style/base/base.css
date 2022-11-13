@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  
+}
+*::first-letter{
+  text-transform: capitalize;
+}
+/* 
+html {
+  
+} */
+
+body {
+  min-width: 320px;
+  margin: 0;
+  color: var(--clr4);
+  background-color: var(--bgc);
+  height: 100vh;
+  /* padding-block-start: 1.2rem; */
+  font-family: 'OpenSans-Regular';
+  overflow: hidden;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 ;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+p {
+  margin: 1em 0 1em 0;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dont stretch my Media */
+img,
+embed,
+video,
+object {
+  max-width: 100%
+}
+
+/* tap targets: */
+nav a,
+button {
+  /* min-width: 48px;
+  min-height: 48px; */
+}
+
+/* Simple and useful CSS Debugging Technique */
+.debug * {
+  outline: 1px solid gold
+}
+
+
+/* color pallet */
+.color-pick{
+  width: 20px;
+  height:20px;
+  border-radius: 50%;
+  border: 1px solid var(--clr3);
+}
+
+.color-one{
+  background-color: #ff9aa2;
+}
+.color-two{
+  background-color: #ffb7b2;
+}
+.color-three{
+  background-color: #ffdac1;
+}
+.color-four{
+  background-color: #fff895;
+}
+.color-five{
+  background-color: #e2f0cb;
+}
+.color-six{
+  background-color: #b5ead7;
+}
+.color-seven{
+  background-color: #89daff;
+}
+
+
+
+
+
+@media  (max-width: 780px) {
+  .screen{
+      margin-block-start: 160px;
+      height: calc(100vh - 160px);
+  }
+}

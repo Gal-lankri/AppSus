@@ -1,0 +1,67 @@
+.email-details {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 184px);
+  padding-inline-end: 2rem;
+  border-radius: 1rem 0 0 0;
+  padding-block-start: 3.5rem;
+  background-color: white;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.email-details .email-body {
+  height: 70%;
+  padding-bottom: 1rem;
+  background-color: rgba(231, 231, 231, 0.473);
+  overflow: scroll !important;
+}
+.email-details .email-header h1 {
+  font-family: OpenSans-Light;
+  padding: 1.5rem;
+  font-size: 1.5rem !important;
+}
+.email-details .email-header h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.email-details .email-body p {
+  padding: 1rem;
+  color: black;
+}
+
+.email-details a {
+  font-weight: bold !important;
+}
+.email-details .email-details-btns{
+  display: flex;
+  justify-content: space-between;
+}
+.email-details .back-list {
+  align-self: flex-end;
+}
+
+.email-details * {
+  font-size: 1rem !important;
+  text-align: left !important;
+  margin: 0 !important;
+}
+
+.email-details .remove-email {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  background-color: unset;
+  border: unset;
+  align-self: flex-end;
+}
+.email-details .remove-email::after {
+  content: '\f2ed';
+}
+.email-details .remove-email:hover {
+  background-color: var(--clr2);
+  border-radius: 100px;
+}

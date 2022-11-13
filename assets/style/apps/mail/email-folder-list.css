@@ -1,0 +1,54 @@
+.email-folder-list {
+  display: flex;
+  flex-direction: column;
+  padding-inline-end: 1rem;
+  padding-block-start: 1rem;
+
+  background-color: var(--bgc);
+}
+
+.email-folder-list ul li {
+  cursor: pointer;
+  padding: 0.5rem;
+  padding-inline-start: 3rem;
+  border-radius: 0 1rem 1rem 0;
+  gap: 1rem;
+}
+
+.email-folder-list ul li:hover {
+  background-color: rgb(205, 205, 205);
+}
+.email-folder-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.email-folder-list button {
+  margin-inline-start: 2rem;
+  font-size: 1rem;
+  font-family: OpenSans-medium;
+  color: var(--clr--5);
+  border-radius: 1rem;
+  background-color: var(--clr--4);
+  padding: 0.5rem;
+  border: none;
+  width: 136px;
+}
+
+.email-folder-list button:hover {
+  box-shadow: 4px 3px 6px -1px var(--clr4);
+}
+.email-folder-list .unread-num {
+padding-inline-start: 0.8rem;
+color: rgb(24, 43, 139);
+font-size: 0.8rem;
+font-weight: bold;
+}
+
+.button-active {
+  background-color: var(--clr6);
+}
+.active{
+  background-color: rgba(97, 151, 223, 0.699);
+}

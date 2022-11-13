@@ -1,0 +1,75 @@
+
+.note-details-container{
+    position: fixed;
+    float: left  ;
+    bottom: 1rem;
+    right: 2rem;
+    min-height: 500px;
+    max-width: calc(100vw - 4rem);
+
+    background-color: var(--clr--1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 0px var(--clr3);
+    z-index: 99999;
+}
+
+
+
+.note-details section{
+    background-color: var(--clr--1);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    height: 100%;
+
+}
+.note-details section:last-of-type{
+    height: 100%;
+}
+
+.note-details input,
+.note-details textarea{
+    background-color: transparent;
+    /* width: 100%; */
+    border: none;
+    font-family: OpenSans-Regular;
+    padding: 0.5rem;
+    font-size: 1rem;
+    
+}
+
+.note-details input{
+    border-block-end: 1px solid var(--clr--3);
+}
+
+.note-details textarea{
+    height: 340px;
+}
+
+.close-editor{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+
+    right: -0.7rem;
+    top: 0.5rem;
+
+}
+
+.note-details ul li{
+    /* list-style: square; */
+}
+
+.note-details h4{
+    text-transform: none;
+    margin-block-end: 1rem;
+}
+
+.note-details span{
+   width: 100%;
+}
+
+.note-details  input[type=text]{
+    width: 100%;
+
+}

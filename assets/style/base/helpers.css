@@ -1,0 +1,233 @@
+/* flex helpers */
+
+.flex {
+  display: flex;
+}
+
+.flex.flex-column {
+  flex-direction: column;
+}
+
+.flex.justify-center {
+  justify-content: center;
+}
+
+.flex.justify-between {
+  justify-content: space-between;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+.flex.row {
+  flex-direction: row;
+}
+.flex.column {
+  flex-direction: column;
+}
+.flex.gap {
+  gap: 0.5rem;
+}
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+/* text helpers */
+
+.colored-text {
+  color: solid var(--clr5);
+}
+
+/* list helpers */
+
+.clean-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* font awsome */
+
+.fa {
+  font-family: fa;
+}
+
+.fa.fa-facebook::before {
+  content: '\f39e';
+}
+
+.fa.fa-twitter::before {
+  content: '\f099';
+}
+
+.fa.fa-dribbble::before {
+  content: '\f17d';
+}
+
+.fa.fa-behance::before {
+  content: '\f1b4';
+}
+
+.fa.navbar-icon::before {
+  content: '\f0c9';
+  font-size: 2rem;
+}
+
+.fa.text-icon::before {
+  content: '\f031';
+  font-size: 1.5rem;
+}
+
+.fa.img-icon::before {
+  content: '\f03e';
+  font-size: 1.5rem;
+}
+
+.fa.video-icon::before {
+  content: '\f03d';
+  font-size: 1.5rem;
+}
+
+.fa.list-icon::before {
+  content: '\f03a';
+  font-size: 1.5rem;
+}
+
+.fa.pin-icon::before {
+  content: '\f276';
+  font-size: 1.5rem;
+}
+
+.fa.unpin-icon::before {
+  content: '\f276';
+  font-size: 1.5rem;
+}
+.fa.remove-icon::before {
+  content: '\f00d';
+  font-size: 1rem;
+}
+.fa.pen-icon::before {
+  content: '\f304';
+  font-size: 1.5rem;
+  padding-inline-end: 1rem;
+}
+.fa.inbox-icon::before {
+  content: '\f01c';
+  font-size: 1rem;
+  padding-inline-end: 1rem;
+}
+.fa.sent-icon::before {
+  content: '\f1d8';
+  font-size: 1rem;
+  padding-inline-end: 1rem;
+}
+.fa.trash-icon::before {
+  content: '\f1f8';
+  font-size: 1rem;
+  padding-inline-end: 1rem;
+}
+.fa.draft-icon::before {
+  content: '\f5ae';
+  font-size: 1rem;
+  padding-inline-end: 1rem;
+}
+.fa.square-icon::before {
+  content: '\e269';
+  font-size: 1rem;
+  padding-inline-end: 1rem;
+}
+.fa.arrow-icon::before {
+  content: '\f061';
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.fa.left-arrrow-icon::before {
+  content: '\f060';
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+.fa.pallet-icon::before {
+    content: "\f53f";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.pallet-icon::before {
+    content: "\f53f";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.close-icon::before {
+    content: "\f2d3";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.label-icon::before {
+    content: "\f02b";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.star-icon::before {
+    content: "\f005";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.house-icon::before {
+    content: "\e00d";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.work-icon::before {
+    content: "\f0b1";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.friends-icon::before {
+    content: "\f500";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.backspace-icon::before {
+    content: "\f55a";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.sdcard-icon::before {
+    content: "\f7c2";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.heart-icon::before {
+    content: "\f004";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.duplicate-icon::before {
+    content: "\f24d";
+    font-size: 1rem;
+    padding-inline-end: 1rem;
+}
+.fa.user-circel-icon::before {
+    content: "\f2bd";
+    font-size: 2.5rem;
+    padding-inline-end: 0.5rem;
+    color: rgba(110, 27, 158, 0.842);
+}
+
+/* hidden */
+.show {
+  display: block !important;
+  left: 0 !important;
+  transition: all 0.7s !important;
+}
+
+/* center */
+
+.center {
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%); */
+}

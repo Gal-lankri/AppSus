@@ -1,0 +1,31 @@
+.home-router{
+padding: 5rem;
+}
+
+.home-router h1{
+    font-size: 5rem !important;
+    
+}
+.home-router img{
+    width: 10rem;
+    opacity: 0.5;
+    
+}
+.home-router img:hover{
+    /* width: 3rem; */
+    opacity: 1;
+}
+
+.home-page h1 {
+    margin: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 780px){
+    .home-page h1 {
+        font-size: 3rem !important;
+        text-align: center;
+    }
+
+}

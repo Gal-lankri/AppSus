@@ -1,0 +1,65 @@
+.show-label-picker{
+    position: relative;
+}
+
+.label-picker{
+    position: absolute;
+    font-family: 'OpenSans-Regular';
+    text-align: left;
+    color: white;
+    bottom: -7.8rem;
+}
+
+.label-picker li{
+    padding: 0.1rem;
+    margin-block: 0.1rem;
+    border-radius: 0 1rem 1rem 0;
+    border: 1px solid var(--clr3);
+}
+
+.bgc-red{
+    background-color: red;
+    color: white;
+
+}
+
+.bgc-blue{
+    background-color: blue;
+    color: white;
+
+}
+
+.bgc-green{
+    background-color: green;
+    color: white;
+
+}
+
+.bgc-yellow{
+    background-color: yellow;
+    color: black;
+
+}
+.bgc-orange{
+    background-color: orange;
+    color: white;
+
+}
+
+.bgc-pink{
+    background-color: pink;
+    color: black;
+
+}
+
+.bgc-lightblue{
+    background-color: lightblue;
+    color: black;
+    
+}
+
+.greyedLabel{
+    background-color: var(--clr3);
+    color: black;
+    /* opacity: 0.5; */
+}
