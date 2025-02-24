@@ -1,7 +1,7 @@
 import { utilService } from '../../../services/util.service.js'
 import { storageService } from '../../../services/async-storage.service.js'
 
-const notesData = await fetch('../../../data/notes.json').then(res => res.json());
+const notesData = await fetch('/data/email.json').then(res => res.json());
 
 const NOTES_KEY = 'notesDB'
 
