@@ -1,6 +1,6 @@
 import { utilService } from '../../../services/util.service.js'
 import { storageService } from '../../../services/async-storage.service.js'
-import emailsData from '../../../data/email.json'
+import emailsData from '../../../data/email.json' assert { type: "json" };
 
 const EMAILS_KEY = 'emailsDB'
 const loggedinUser = { email: 'user@appsus.com', fullname: 'Mahatma Appsus' }
