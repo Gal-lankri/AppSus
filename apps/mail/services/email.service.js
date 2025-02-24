@@ -1,6 +1,6 @@
 import { utilService } from '../../../services/util.service.js'
 import { storageService } from '../../../services/async-storage.service.js'
-import emailsData from '../../../data/email.json' with { type: "json" };
+const emailsData = await fetch('../../../data/email.json').then(res => res.json());
 
 const EMAILS_KEY = 'emailsDB'
 const loggedinUser = { email: 'user@appsus.com', fullname: 'Mahatma Appsus' }
