@@ -9,6 +9,7 @@ export default {
 	data() {
 		return {
 			msg: { txt: '', type: 'success' },
+			// type can be 'success', 'error', 'warning', etc.
 		}
 	},
 	created() {
